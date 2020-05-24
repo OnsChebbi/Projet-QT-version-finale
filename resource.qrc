@@ -1,0 +1,51 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>image/acceuil.png</file>
+        <file>image/acceuilpr.png</file>
+        <file>image/ajbtn.png</file>
+        <file>image/ajbtnp.png</file>
+        <file>image/ajout.png</file>
+        <file>image/ajoutlvr.png</file>
+        <file>image/ajoutlvs.png</file>
+        <file>image/annbtn.png</file>
+        <file>image/annbtnp.png</file>
+        <file>image/back.png</file>
+        <file>image/backing.png</file>
+        <file>image/btnliv.png</file>
+        <file>image/btnlivpr.png</file>
+        <file>image/btnlivrpr.png</file>
+        <file>image/btnlvr.png</file>
+        <file>image/cherchbtn.png</file>
+        <file>image/cherchbtnpr.png</file>
+        <file>image/exit.png</file>
+        <file>image/exit1.png</file>
+        <file>image/gg.png</file>
+        <file>image/modifbtn.png</file>
+        <file>image/modifbtndia.png</file>
+        <file>image/modifbtnpr.png</file>
+        <file>image/modiflvbtnpr.png</file>
+        <file>image/rpl.png</file>
+        <file>image/suppbtn.png</file>
+        <file>image/suppbtnlvpr.png</file>
+        <file>image/suppbtnpr.png</file>
+        <file>image/title.png</file>
+        <file>image/titlepr.png</file>
+        <file>image/unnamed.png</file>
+        <file>image/motabs.png</file>
+        <file>image/reload.png</file>
+        <file>image/print.png</file>
+        <file>image/triup.png</file>
+        <file>image/login.png</file>
+        <file>image/logbut.png</file>
+        <file>image/bg.jpg</file>
+        <file>image/motlogin.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>image/bouton_ajouter-un-profil.png</file>
+        <file>image/bouton_modifier-un-profil.png</file>
+        <file>image/bouton_supprimer-un-profil.png</file>
+        <file>image/muted.png</file>
+        <file>image/play.png</file>
+        <file>image/appmusic.mp3</file>
+    </qresource>
+</RCC>

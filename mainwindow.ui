@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1185</width>
+    <height>1090</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget
+{
+background: url(C:/Users/HP/Desktop/projet/image/back.png);
+}
+#des1
+{
+background:#fec424;
+
+}
+#des2
+{
+background:#fec424;
+
+}
+#logo
+{
+background: url(C:/Users/HP/Desktop/projet/image/rpl.png);
+}</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="des1">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>94</y>
+      <width>6000</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>-30</y>
+       <width>301</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+width: 10px;
+
+background-color: transparent;
+border-image: url(C:/Users/HP/Desktop/projet/image/title.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+*:hover
+{
+width: 10px;
+background-color: transparent;
+
+border-image: url(C:/Users/HP/Desktop/projet/image/titlepr.png);
+background: none;
+border: none;
+background-repeat: none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="play">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>0</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+
+
+background-color: transparent;
+border-image: url(C:/Users/HP/Desktop/projet/image/play.png);
+
+}
+
+
+*:hover
+{
+
+background-color: transparent;
+
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="muted">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>0</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+
+
+background-color: transparent;
+border-image: url(C:/Users/HP/Desktop/projet/image/muted.png);
+
+}
+
+
+*:hover
+{
+
+background-color: transparent;
+
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>-20</y>
+      <width>251</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="des2">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>120</y>
+      <width>301</width>
+      <height>1091</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+width: 10px;
+
+background-color: transparent;
+border-image: url(C:/Users/HP/Desktop/projet/image/gg.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+*:hover
+{
+width: 10px;
+background-color: transparent;
+
+border-image: url(C:/Users/HP/Desktop/projet/image/gg.png);
+background: none;
+border: none;
+background-repeat: none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>580</y>
+       <width>51</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+width: 10px;
+
+background-color: transparent;
+border-image: url(C:/Users/HP/Desktop/projet/image/exit.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+*:hover
+{
+width: 10px;
+background-color: transparent;
+
+border-image: url(C:/Users/HP/Desktop/projet/image/exit1.png);
+background: none;
+border: none;
+background-repeat: none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>220</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+width: 10px;
+
+background-color: transparent;
+border-image: url(C:/Users/HP/Desktop/projet/image/ggabs.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+*:hover
+{
+width: 10px;
+background-color: transparent;
+
+border-image: url(C:/Users/HP/Desktop/projet/image/ggabs.png);
+background: none;
+border: none;
+background-repeat: none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <zorder>des2</zorder>
+   <zorder>des1</zorder>
+   <zorder>logo</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1185</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
